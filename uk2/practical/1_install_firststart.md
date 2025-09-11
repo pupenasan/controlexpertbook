@@ -39,7 +39,7 @@
 
 - [ ] Завантажте образ EcoStruxure Control Expert. На момент написання практичного завдання його можна завантажити за цими посиланнями:
 - [З сайту SE, потребує безкоштовної реєстрації](https://www.se.com/au/en/download/document/EcoStruxureControlExpert_V162/)
-- [Локальний репозиторій Шнейдер Електрік Україна](https://schneiderelectric.sharepoint.com/:u:/r/sites/IndustryproductsUkrainePublic/Shared Documents/General/Plant Automation/Software PAC/EcoStruxure Control Expert (Unity Pro)/Програмне забезпечення/Програмне забезпечення Control Expert/Control_Expert_V16.2.iso?csf=1&web=1&e=4IUmPV) .
+- [Локальний репозиторій Шнейдер Електрік Україна](https://schneiderelectric.sharepoint.com/sites/IndustryproductsUkrainePublic/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FIndustryproductsUkrainePublic%2FShared%20Documents%2FGeneral%2FPlant%20Automation%2FSoftware%20PAC%2FEcoStruxure%20Control%20Expert%20%28Unity%20Pro%29%2F%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%B5%20%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F%2F%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%B5%20%D0%B7%D0%B0%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D1%8F%20Control%20Expert&viewid=f9621909%2D8814%2D4ea0%2Daf14%2D33e5cb51a201&p=true&ga=1)
 - [ ] Відкрийте образ або вставте його в віртуальний привід віртуальної машини.
 - [ ] Встановіть Microsoft .NET 3.5, якщо його ще не встановлено, його можна завантажити з [сайту Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=21)
 - [ ] Встановіть EcoStruxure Control Expert, залишайте усі налаштування за замовченням.
