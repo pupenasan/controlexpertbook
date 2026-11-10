@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SCRExchangeFile>
+	<fileHeader company="Schneider Automation" product="Unity Pro XL V5.0 - 100504A" dateTime="date_and_time#2011-9-27-12:49:28" content="Operator Screen source file" DTDVersion="41"></fileHeader>
+	<contentHeader name="Project" version="0.0.42" dateTime="date_and_time#2011-9-27-13:12:13"></contentHeader>
+	<IOScreen version="V1.0">
+		<message row="1" num="0" description="Предпуск" hLink=""></message>
+		<message row="2" num="1" description="Набор продукту 1" hLink=""></message>
+		<message row="3" num="2" description="Набор продукту 2" hLink=""></message>
+		<message row="4" num="3" description="Нагрівання" hLink=""></message>
+		<message row="5" num="4" description="Витримка" hLink=""></message>
+		<message row="6" num="5" description="Злив продукту" hLink=""></message>
+		<screen name="Screen" screenX="1280" screenY="1024" BKColor="-1" valScreen="0" location="" creationDate="23/09/2011 - 09:37:45" modificationDate="27/09/2011 - 12:18:48" customInfos="" isPattern="0" valPattern="0">
+			<object objectID="11" description="(296,300,517,622),(0,1,0),(11,0,8421504)"></object>
+			<object objectID="11" description="(84,67,217,149),(0,1,0),(10,0,0)"></object>
+			<object objectID="11" description="(91,116,205,144),(0,1,0),(11,0,0)">
+				<varAnim name="LE_Tank_R" typeName="REAL" description="Anim:0,|-|-|,(4,0),(0,0),ba:1,|0.0|5.0|,|0.1|4.9|,255"></varAnim>
+			</object>
+			<object objectID="10" description="(44,41,44,74),(0,5,16711680),3"></object>
+			<object objectID="10" description="(44,75,81,75),(0,5,16711680),1"></object>
+			<object objectID="10" description="(43,132,43,165),(0,5,16711680),3"></object>
+			<object objectID="10" description="(45,131,82,131),(0,5,16711680),1"></object>
+			<object objectID="10" description="(216,108,261,108),(0,5,16711680),1"></object>
+			<object objectID="12" description="(31,45,57,70),(0,1,0),(11,0,16777215)"></object>
+			<object objectID="12" description="(29,141,55,166),(0,1,0),(11,0,16777215)"></object>
+			<object objectID="12" description="(226,96,252,121),(0,1,0),(11,0,16777215)"></object>
+			<object objectID="12" description="(84,36,110,61),(0,1,0),(11,0,16777215)"></object>
+			<object objectID="12" description="(137,39,163,64),(0,1,0),(11,0,16777215)"></object>
+			<object objectID="12" description="(191,37,217,62),(0,1,0),(11,0,16777215)"></object>
+			<object objectID="12" description="(196,43,214,59),(0,1,0),(11,0,65280)">
+				<varAnim name="LS_nyz" typeName="EBOOL" description="Anim:2,|-|-|,(0,0),(0,0)"></varAnim>
+			</object>
+			<object objectID="12" description="(33,147,51,163),(0,1,0),(11,0,65280)">
+				<varAnim name="VA_nabor2" typeName="EBOOL" description="Anim:2,|-|-|,(0,0),(0,0)"></varAnim>
+			</object>
+			<object objectID="12" description="(142,44,160,60),(0,1,0),(11,0,65280)">
+				<varAnim name="LS_ser" typeName="EBOOL" description="Anim:2,|-|-|,(0,0),(0,0)"></varAnim>
+			</object>
+			<object objectID="12" description="(87,40,105,56),(0,1,0),(11,0,65280)">
+				<varAnim name="LS_verh" typeName="EBOOL" description="Anim:2,|-|-|,(0,0),(0,0)"></varAnim>
+			</object>
+			<object objectID="18" description="(88,231,114,298),(-1,0,0,2),|Старт|">
+				<varPilot name="SB_Start" typeName="BOOL" description="Pilot:|0|0|"></varPilot>
+			</object>
+			<object objectID="18" description="(117,231,143,298),(-1,0,0,1),|Стоп|">
+				<varPilot name="SB_stop" typeName="BOOL" description="Pilot:|0|0|"></varPilot>
+			</object>
+			<object objectID="12" description="(230,101,248,117),(0,1,0),(11,0,65280)">
+				<varAnim name="VA_sliv" typeName="EBOOL" description="Anim:2,|-|-|,(0,0),(0,0)"></varAnim>
+			</object>
+			<object objectID="12" description="(34,50,52,66),(0,1,0),(11,0,65280)">
+				<varAnim name="VA_nabor1" typeName="EBOOL" description="Anim:2,|-|-|,(0,0),(0,0)"></varAnim>
+			</object>
+			<object objectID="15" description="(88,157,111,214),(0,1,0),(10,0,0),|Text|Courier New|,(9,1,0,0,0,0,0)">
+				<varAnim name="TE_Tank_R" typeName="REAL" description="Anim:0,|-|-|,(1,0),(0,0)"></varAnim>
+			</object>
+			<object objectID="10" description="(199,149,199,232),(0,4,16776960),3"></object>
+			<object objectID="12" description="(188,170,209,194),(0,1,0),(11,0,32768)"></object>
+			<object objectID="15" description="(160,160,183,217),(0,1,0),(10,0,0),|Text|Courier New|,(9,1,0,0,0,0,0)">
+				<varAnim name="VR_Par_R" typeName="REAL" description="Anim:0,|-|-|,(1,0),(0,0)"></varAnim>
+			</object>
+			<object objectID="11" description="(36,301,280,753),(0,1,16711680),(10,0,0)">
+				<varAnim name="VR_par_R" typeName="REAL" description="Anim:0,|-|-|,(3,0),(0,16711680),ch:|0.0|100.0|,(1,2,0)"></varAnim>
+			</object>
+			<object objectID="11" description="(36,301,280,753),(0,1,0),(10,0,0)">
+				<varAnim name="TIC1.SP" typeName="REAL" description="Anim:0,|-|-|,(3,0),(0,16711680),ch:|0.0|150.0|,(1,2,8388736)"></varAnim>
+			</object>
+			<object objectID="11" description="(37,754,280,782),(0,1,0),(11,0,16711680)">
+				<varAnim name="VR_Par_R" typeName="REAL" description="Anim:0,|-|-|,(4,0),(0,0),ba:1,|0.0|100.0|,|0.0|1000.0|,0"></varAnim>
+			</object>
+			<object objectID="11" description="(38,783,281,811),(0,1,0),(11,0,8388736)">
+				<varAnim name="TIC1.SP" typeName="REAL" description="Anim:0,|-|-|,(4,0),(0,0),ba:1,|0.0|150.0|,|0.0|150.0|,0"></varAnim>
+			</object>
+			<object objectID="11" description="(38,812,281,840),(0,1,0),(11,0,32768)">
+				<varAnim name="TE_Tank_R" typeName="REAL" description="Anim:0,|-|-|,(4,0),(0,0),ba:1,|0.0|150.0|,|0.0|150.0|,0"></varAnim>
+			</object>
+			<object objectID="11" description="(36,301,280,753),(0,1,32768),(10,0,0)">
+				<varAnim name="TE_Tank_R" typeName="REAL" description="Anim:0,|-|-|,(3,0),(0,16711680),ch:|0.0|150.0|,(1,2,32768)"></varAnim>
+			</object>
+			<object objectID="15" description="(285,754,304,784),(5,1,0),(10,0,0),|VR|Courier New|,(9,1,0,0,0,0,0)"></object>
+			<object objectID="15" description="(285,780,304,813),(5,1,0),(10,0,0),|SP|Courier New|,(9,1,0,0,0,0,0)"></object>
+			<object objectID="15" description="(285,811,304,847),(5,1,0),(10,0,0),|TE_PV|Courier New|,(9,1,0,0,0,0,0)"></object>
+			<object objectID="18" description="(324,407,358,469),(-1,0,0,1),|Авт/Руч|">
+				<varPilot name="TIC1_Man_Auto" typeName="EBOOL" description="Pilot:|0|0|"></varPilot>
+			</object>
+			<object objectID="15" description="(302,399,316,429),(5,1,0),(10,0,0),|АВТ|Courier New|,(9,1,0,0,0,0,65280)">
+				<varAnim name="TIC1_Man_Auto" typeName="EBOOL" description="Anim:2,|-|-|,(0,0),(0,0)"></varAnim>
+			</object>
+			<object objectID="15" description="(302,435,316,465),(5,1,0),(10,0,0),|РУЧ|Courier New|,(9,1,0,0,0,0,65535)">
+				<varAnim name="TIC1_Man_Auto" typeName="EBOOL" description="Anim:1,|-|-|,(0,0),(0,0)"></varAnim>
+			</object>
+			<object objectID="19" description="(365,406,386,470),(-1,1,0,0)">
+				<varPilot name="TE_Tank_R" typeName="REAL" description="Pilot:|0.0|150.0|"></varPilot>
+			</object>
+			<object objectID="19" description="(387,406,408,470),(-1,1,0,0)">
+				<varPilot name="TIC1_SP" typeName="REAL" description="Pilot:|0.0|150.0|"></varPilot>
+			</object>
+			<object objectID="15" description="(389,346,412,402),(5,1,0),(10,0,0),|Задане|Courier New|,(9,0,0,0,0,0,16776960)"></object>
+			<object objectID="15" description="(365,348,388,404),(5,1,0),(10,0,0),|Дійсне|Courier New|,(9,0,0,0,0,0,16776960)"></object>
+			<object objectID="19" description="(414,407,435,471),(-1,1,0,0)">
+				<varPilot name="VR_par_MAN" typeName="REAL" description="Pilot:|0.0|100.0|"></varPilot>
+			</object>
+			<object objectID="15" description="(413,345,442,408),(5,1,0),(10,0,0),|Ручне завдання|Courier New|,(9,0,0,0,0,0,16776960)"></object>
+			<object objectID="19" description="(449,408,470,472),(-1,1,0,0)">
+				<varPilot name="TIC1_PARA.kp" typeName="REAL" description="Pilot:|0.0|100.0|"></varPilot>
+			</object>
+			<object objectID="19" description="(473,408,494,472),(-1,1,0,0)">
+				<varPilot name="TIC1_PARA.ti" typeName="TIME" description="Pilot:|-|-|"></varPilot>
+			</object>
+			<object objectID="15" description="(452,349,475,405),(5,1,0),(10,0,0),|Kp|Courier New|,(9,0,0,0,0,0,16776960)"></object>
+			<object objectID="15" description="(476,351,499,407),(5,1,0),(10,0,0),|Ti|Courier New|,(9,0,0,0,0,0,16776960)"></object>
+			<object objectID="15" description="(303,310,365,393),(5,1,0),(10,0,0),|Дійсне|Courier New|,(12,0,1,0,0,0,65535)">
+				<varAnim name="StepProg" typeName="INT" description="Anim:0,|-|-|,(2,0),(0,0),|2147483647|0|"></varAnim>
+			</object>
+			<object objectID="19" description="(322,486,351,616),(-1,1,0,0)">
+				<varPilot name="T_DELAY.ET" typeName="TIME" description="Pilot:|-|-|"></varPilot>
+			</object>
+		</screen>
+	</IOScreen>
+</SCRExchangeFile>
